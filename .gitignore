@@ -1,5 +1,6 @@
 # custom
 api_key.txt
+sec_user_pass.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
