@@ -4,7 +4,7 @@ key_file = open('sec_user_pass.txt', 'r')
 DB_PASSWORD = key_file.readline().rstrip()
 key_file.close()
 
-def check_securities_master():
+def display_securities_master():
     db_host = 'localhost'
     db_user = 'sec_user'
     db_pass = DB_PASSWORD
@@ -24,4 +24,4 @@ def check_securities_master():
         print(r)
 
 if __name__ == '__main__':
-    check_securities_master()
+    display_securities_master()
