@@ -37,7 +37,7 @@ def obtain_parse_wiki_snp500():
     # page for the S&P 500 company list. Ordering matches the columns
     # in the securities master database.
     symbols = []
-    for i, symbol in enumerate(symbols_list):
+    for symbol in symbols_list:
         # grabs a row from the table of S&P 500 companies
         tds = symbol.select('td')
         symbols.append(
